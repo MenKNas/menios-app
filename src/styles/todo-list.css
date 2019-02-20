@@ -1,0 +1,105 @@
+.todo-list,
+.contacts-card {
+    width: 75%;
+    margin: 3.75% auto;
+    padding: 2%;
+    background-color: #F0F0F0;
+    box-shadow: 2px 4px 2px darkgrey;
+}
+
+.todo-list input {
+    all: unset;
+    text-align: left;
+    background-color: white;
+    border: 1px solid gray;
+    width: 50%;
+    border-radius: 8px;
+    padding: 0.5%;
+    padding-left: 1%;
+}
+
+.todo-list input:focus {
+    border: 1px solid blue;
+    color: blue;
+}
+
+.contacts-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contacts-list li {
+    margin: 3% auto;
+    background-color: white;
+    box-shadow: 1px 2px 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.contacts-list li:hover {
+    border: 1px solid gray;
+}
+
+.contacts-list .name-error {
+    color: red;
+}
+
+.single-card .contact-alert-btn,
+.delete-btn {
+    all: unset;
+    margin: 0 1%;
+    padding: 0.8% 1%;
+    font-size: 0.85rem;
+    font-weight: 400;
+    background-color: lightgray;
+    box-shadow: 1px 1px 1px gray;
+    border-radius: 4px;
+    color: white;
+}
+
+.single-card .delete-btn {
+    background-color: red;
+}
+
+.single-card .contact-alert-btn:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.single-card .delete-btn:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+
+.single-card img {
+    width: 35%;
+    margin-top: 2%;
+    border-radius: 8px;
+}
+
+.single-card .main-info {
+    font-weight: 700;
+}
+
+.single-card .secondary-info {
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+.filtered-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.filtered-list li {
+    margin: 3% auto;
+    background-color: white;
+    box-shadow: 1px 2px 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}

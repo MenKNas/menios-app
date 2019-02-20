@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -27,7 +28,15 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-part {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  padding: 3.5%;
 }
