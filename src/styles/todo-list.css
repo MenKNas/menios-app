@@ -110,3 +110,8 @@
     padding-left: 0.5%;
     color: darkgray;
 }
+
+.todo-list .completed {
+    text-decoration-line: line-through;
+    color: lightgray;
+}
