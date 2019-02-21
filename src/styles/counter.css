@@ -2,3 +2,19 @@
     background-color: lightgray;
     border: 2px solid black;
 }
+
+.ct-btn {
+    all: unset;
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 1% auto;
+    padding: 1%;
+}
+
+.ct-btn:hover {
+    cursor: pointer;
+    background-color: #0f0f0f;
+    opacity: 0.85;
+}

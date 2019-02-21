@@ -1,5 +1,6 @@
 import React from 'react';
 import TodoItem from './TodoItem';
+import TodoList from './TodoList';
 import SuggestedContacts from './SuggestedContacts';
 import CounterComponent from './CounterComponent';
 import '../styles/todo-list.css';
@@ -40,11 +41,7 @@ function MainContent() {
 			<h2> Hello World! </h2>
 			<p style={authorStyle}>Author: {`${name} ${lastname}`}</p>
 			<div className="todo-list">
-				<h3> To Do List </h3>
-				<TodoItem />
-				<TodoItem />
-				<TodoItem />
-				<TodoItem />
+				<TodoList />
 			</div>
 			<SuggestedContacts user={user} foods={randomFoods} />
 			<CounterComponent />

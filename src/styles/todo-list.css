@@ -103,3 +103,10 @@
     align-items: center;
     border: 1px solid blue;
 }
+
+.todo-list .todo-input {
+    margin: 2% auto;
+    text-align: left;
+    padding-left: 0.5%;
+    color: darkgray;
+}

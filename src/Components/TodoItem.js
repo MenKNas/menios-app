@@ -4,8 +4,8 @@ export default class TodoItem extends Component {
 	render() {
 		return (
 			<div>
-				<input type="text" />
-				<p> Placeholder text is going here </p>
+				<p> {this.props.todo} </p>
+				<button> X </button>
 			</div>
 		);
 	}
